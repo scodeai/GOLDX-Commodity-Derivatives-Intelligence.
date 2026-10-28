@@ -1,0 +1,9 @@
+# GOLDX — Commodity Derivatives Intelligence
+# Streamlit dashboard and Python analytics dependencies
+streamlit>=1.35,<2
+pandas>=2.0,<3
+numpy>=1.24,<3
+plotly>=5.18,<7
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+pyarrow>=14,<24

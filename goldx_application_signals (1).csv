@@ -1,0 +1,69 @@
+Date,Spread,Historical_Mean,Historical_Std,Z_Score,Potential_Anomaly,Signal,Contract_Pair,Liquidity_Pair,Near_Volume,Far_Volume,Near_Open_Interest,Far_Open_Interest,Both_Legs_Traded,Liquidity_Status
+01-09-2026,1846,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1366,82,8495,363,TRUE,Both contracts traded
+01-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,82,0,363,8,FALSE,Insufficient liquidity / no trade
+02-09-2026,1827,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1567,89,8097,374,TRUE,Both contracts traded
+02-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,89,0,374,8,FALSE,Insufficient liquidity / no trade
+03-09-2026,1971,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1438,64,7990,355,TRUE,Both contracts traded
+03-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,64,0,355,8,FALSE,Insufficient liquidity / no trade
+04-09-2026,2376,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1771,85,8505,377,TRUE,Both contracts traded
+04-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,85,0,377,8,FALSE,Insufficient liquidity / no trade
+07-09-2026,1979,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,546,44,8537,379,TRUE,Both contracts traded
+07-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,44,0,379,8,FALSE,Insufficient liquidity / no trade
+08-09-2026,2406,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,416,14,8548,380,TRUE,Both contracts traded
+08-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,14,0,380,8,FALSE,Insufficient liquidity / no trade
+09-09-2026,1816,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1127,25,8890,382,TRUE,Both contracts traded
+09-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,25,0,382,8,FALSE,Insufficient liquidity / no trade
+10-09-2026,2267,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1077,38,8994,372,TRUE,Both contracts traded
+10-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,38,0,372,8,FALSE,Insufficient liquidity / no trade
+11-09-2026,2682,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1914,35,9408,377,TRUE,Both contracts traded
+11-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,35,0,377,8,FALSE,Insufficient liquidity / no trade
+14-09-2026,1376,,,,FALSE,Insufficient History,December 2026 - February 2027,December-February,1094,14,9509,380,TRUE,Both contracts traded
+14-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,14,0,380,8,FALSE,Insufficient liquidity / no trade
+15-09-2026,1777,2054.6,378.7365546,-0.732963314,FALSE,Normal,December 2026 - February 2027,December-February,1602,8,9863,378,TRUE,Both contracts traded
+15-09-2026,2660,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,8,3,378,8,TRUE,Both contracts traded
+16-09-2026,2138,2047.7,383.5570507,0.235427819,FALSE,Normal,December 2026 - February 2027,December-February,1098,55,9939,359,TRUE,Both contracts traded
+16-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,55,0,359,8,FALSE,Insufficient liquidity / no trade
+17-09-2026,2305,2078.8,376.2117607,0.601257121,FALSE,Normal,December 2026 - February 2027,December-February,1952,48,10155,375,TRUE,Both contracts traded
+17-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,48,0,375,8,FALSE,Insufficient liquidity / no trade
+18-09-2026,2373,2112.2,380.381037,0.68562829,FALSE,Normal,December 2026 - February 2027,December-February,3267,83,9826,385,TRUE,Both contracts traded
+18-09-2026,1076,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,83,3,385,9,TRUE,Both contracts traded
+21-09-2026,2533,2111.9,380.1509788,1.107717785,FALSE,Normal,December 2026 - February 2027,December-February,2198,48,10439,380,TRUE,Both contracts traded
+21-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,48,0,380,9,FALSE,Insufficient liquidity / no trade
+22-09-2026,2098,2167.3,398.5535096,-0.173878785,FALSE,Normal,December 2026 - February 2027,December-February,2832,70,11123,338,TRUE,Both contracts traded
+22-09-2026,2785,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,70,2,338,10,TRUE,Both contracts traded
+23-09-2026,2339,2136.5,389.8635801,0.519412457,FALSE,Normal,December 2026 - February 2027,December-February,2997,40,11920,344,TRUE,Both contracts traded
+23-09-2026,2370,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,40,1,344,10,TRUE,Both contracts traded
+24-09-2026,2430,2188.8,376.9579405,0.639859183,FALSE,Normal,December 2026 - February 2027,December-February,2991,36,12185,349,TRUE,Both contracts traded
+24-09-2026,2692,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,36,1,349,10,TRUE,Both contracts traded
+25-09-2026,2456,2205.1,384.1702314,0.653095892,FALSE,Normal,December 2026 - February 2027,December-February,3862,49,12854,360,TRUE,Both contracts traded
+25-09-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,49,0,360,10,FALSE,Insufficient liquidity / no trade
+28-09-2026,2142,2182.5,358.8082899,-0.112873646,FALSE,Normal,December 2026 - February 2027,December-February,7240,223,14798,403,TRUE,Both contracts traded
+28-09-2026,3203,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,223,3,403,11,TRUE,Both contracts traded
+29-09-2026,2317,2259.1,223.9079424,0.258588415,FALSE,Normal,December 2026 - February 2027,December-February,7104,266,15587,443,TRUE,Both contracts traded
+29-09-2026,2192,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,266,2,443,11,TRUE,Both contracts traded
+30-09-2026,2336,2313.1,146.4334889,0.156384992,FALSE,Normal,December 2026 - February 2027,December-February,8134,232,15716,499,TRUE,Both contracts traded
+30-09-2026,3668,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,232,1,499,12,TRUE,Both contracts traded
+01-10-2026,2422,2332.9,132.8862922,0.670498051,FALSE,Normal,December 2026 - February 2027,December-February,7224,78,15955,508,TRUE,Both contracts traded
+01-10-2026,2198,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,78,3,508,13,TRUE,Both contracts traded
+05-10-2026,2403,2344.6,135.2858702,0.431678489,FALSE,Normal,December 2026 - February 2027,December-February,5334,118,16322,514,TRUE,Both contracts traded
+05-10-2026,2625,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,118,14,514,24,TRUE,Both contracts traded
+06-10-2026,2291,2347.6,136.3143426,-0.415216762,FALSE,Normal,December 2026 - February 2027,December-February,5327,117,16179,531,TRUE,Both contracts traded
+06-10-2026,2135,2546.9,685.2813615,-0.601066982,FALSE,Normal,February 2027 - April 2027,February-April,117,8,531,27,TRUE,Both contracts traded
+07-10-2026,2072,2323.4,120.2813369,-2.090099815,TRUE,Potentially Low,December 2026 - February 2027,December-February,6454,201,16701,521,TRUE,Both contracts traded
+07-10-2026,2402,2494.4,695.6853056,-0.132818674,FALSE,Normal,February 2027 - April 2027,February-April,201,13,521,34,TRUE,Both contracts traded
+08-10-2026,2153,2320.8,125.8471736,-1.333363278,FALSE,Normal,December 2026 - February 2027,December-February,5984,147,16575,519,TRUE,Both contracts traded
+08-10-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,147,0,519,34,FALSE,Insufficient liquidity / no trade
+09-10-2026,2109,2302.2,136.1794568,-1.41871619,FALSE,Normal,December 2026 - February 2027,December-February,5341,165,16126,535,TRUE,Both contracts traded
+09-10-2026,2257,2627,491.7829241,-0.752364472,FALSE,Normal,February 2027 - April 2027,February-April,165,1,535,33,TRUE,Both contracts traded
+12-10-2026,2229,2270.1,140.4725754,-0.292583801,FALSE,Normal,December 2026 - February 2027,December-February,5658,66,17065,542,TRUE,Both contracts traded
+12-10-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,66,0,542,33,FALSE,Insufficient liquidity / no trade
+13-10-2026,2438,2247.4,124.5304068,1.530549886,FALSE,Normal,December 2026 - February 2027,December-February,5444,172,17548,603,TRUE,Both contracts traded
+13-10-2026,2803,2574.2,501.1887646,0.456514623,FALSE,Normal,February 2027 - April 2027,February-April,172,2,603,35,TRUE,Both contracts traded
+14-10-2026,2400,2277,131.6679325,0.934168234,FALSE,Normal,December 2026 - February 2027,December-February,7063,242,17588,644,TRUE,Both contracts traded
+14-10-2026,3035,2617.5,500.2904157,0.834515287,FALSE,Normal,February 2027 - April 2027,February-April,242,16,644,38,TRUE,Both contracts traded
+15-10-2026,2282,2285.3,136.9785466,-0.024091364,FALSE,Normal,December 2026 - February 2027,December-February,5618,136,17085,647,TRUE,Both contracts traded
+15-10-2026,2535,2651.8,517.4301456,-0.225730953,FALSE,Normal,February 2027 - April 2027,February-April,136,5,647,38,TRUE,Both contracts traded
+16-10-2026,2446,2279.9,135.8172383,1.222966996,FALSE,Normal,December 2026 - February 2027,December-February,5091,119,16717,648,TRUE,Both contracts traded
+16-10-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,119,0,648,38,FALSE,Insufficient liquidity / no trade
+19-10-2026,2486,2282.3,138.786847,1.467718335,FALSE,Normal,December 2026 - February 2027,December-February,3865,100,16759,657,TRUE,Both contracts traded
+19-10-2026,,,,,FALSE,Insufficient History,February 2027 - April 2027,February-April,100,0,657,38,FALSE,Insufficient liquidity / no trade

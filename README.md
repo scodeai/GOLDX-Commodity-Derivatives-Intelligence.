@@ -8,7 +8,7 @@ Event: Hack in Hills 2026
 Status: Hackathon prototype — historical analysis and interactive dashboard; not a production trading system.
 
 
-GOLDX –[ Beyond Price. Into Intelligence.]
+# GOLDX –[ Beyond Price. Into Intelligence.]
 
 Elevator pitch:
 Gold futures contracts with different expiry dates naturally trade at different prices. The important question is not whether their prices differ, but when the difference becomes unusual relative to its own history—and whether both contracts traded sufficiently for the observation to deserve attention. GOLDX converts futures market records into calendar-spread analytics, rolling statistical alerts, liquidity checks, and an interactive dashboard that explains each candidate signal.
@@ -31,7 +31,7 @@ Future roadmap
 Team and acknowledgements
 
 
-Problem statement:-
+# Problem statement:-
 Commodity futures exchanges list multiple contracts on the same underlying commodity, each with a different expiry. Their price difference—a calendar spread—changes over time because of carry, market expectations, supply and demand, liquidity, and other factors.
 
 
@@ -46,7 +46,7 @@ Reproducibility: analytical claims should be traceable to the underlying observa
 GOLDX addresses these issues with a transparent, rules-based analytical pipeline and a dashboard for exploration.
 
 
-Solution and features:-
+# Solution and features:-
 Feature-  |What it does-
 Contract aware analysis- |Compares expiry contracts of the same GOLD underlying.
 Calendar spreads- |Calculates far month closing price minus near-month closing price.
@@ -60,7 +60,7 @@ CSV export- |Makes market records and signal outputs available for inspection.
 Important: The currently verified detection method is statistical, not a trained machine-learning predictor. ML extensions are future work.
 
 
-System workflow
+# System workflow
 
         Historical MCX Gold futures records
                        |
@@ -98,7 +98,7 @@ System workflow
 The prototype separates raw market data, derived spread/signal data, and dashboard presentation. This helps avoid presenting a chart as independent evidence of a calculation: the signal file can be checked against the underlying closes and volume records.
 
 
-Data and contract universe
+# Data and contract universe
 
 The current historical prototype dataset contains:
 Property | Value
@@ -113,11 +113,11 @@ Pair-level signal rows | 68 (34 per pair)
 (The market-data schema includes Date, Symbol, Expiry Date, Open, High, Low, Close, Previous Close, Volume(Lots), and Open Interest(Lots), alongside other source fields. The project CSVs hold cleaned observations and derived signal information.)
 
 
-Why expiry matching matters
+# Why expiry matching matters
 (GOLDX compares different expiry months of the same GOLD futures product. It does not treat different gold-related products, such as GOLDM and GOLDTEN, as interchangeable legs of the same calendar spread. The original dashboard's synthetic/demo example should not be confused with the project's actual GOLD data.)
 
 
-How the analytics work
+# How the analytics work
 
 1. Prepare and validate observations
    a.Parse dates and expiry dates.
@@ -215,7 +215,7 @@ Both legs traded |	Yes
 Interpretation: The December–February spread was unusually low relative to its recent history under the selected baseline. It is a candidate for further investigation, not confirmed mispricing, arbitrage, or a realized trading gain.
 
 
-Sensitivity to the rolling window
+# Sensitivity to the rolling window
 
 The same dataset produces different flags when the lookback changes:
 
@@ -228,7 +228,7 @@ Lookback |	Valid Z-scores (Dec–Feb)	| Detected anomalies
 This sensitivity is a reason to seek more historical data and out-of-sample validation—not a reason to choose a window solely because it produces more alerts.
 
 
-Dashboard walkthrough
+# Dashboard walkthrough
 
 The integrated application provides the following project-data views:
 
@@ -246,7 +246,7 @@ The integrated application provides the following project-data views:
 The teammate's original dashboard also includes a synthetic demonstration mode with additional strategy controls and example performance figures. Those demo figures are not validated GOLDX results and must remain explicitly labeled as synthetic.
 
 
-Technology stack:-
+# Technology stack:-
     a.Python — analysis and application logic.
     b.Pandas / NumPy — tabular cleaning, contract alignment, spread calculations, rolling                statistics.
     c.Google Colab / Jupyter — exploratory development and execution of the analytics notebooks.
@@ -258,7 +258,7 @@ Technology stack:-
 A persistent production database, live MCX data feed, brokerage execution integration, and validated ML prediction model are not established components of the current verified prototype.
 
 
-Project files:-
+# Project files:-
 The following names describe files used in the development workflow. Repository paths may differ depending on how the team organizes the final upload.
 
 
@@ -271,7 +271,7 @@ GOLDX/
 ├── goldx_application_signals.csv           # Pair-level signals (68 rows)
 └── ...                                      # Optional analyses, tests, docs, and assets
 
-Additional development artifacts may include:
+# Additional development artifacts may include:
 
 1.gold_futures_cleaned.csv — cleaned source observations.
 
@@ -293,8 +293,8 @@ Before publishing, remove files that contain credentials, access tokens, or data
 
 
 
-Getting started:-
-# Option A: Google Colab (recommended for the hackathon demo)
+# Getting started:-
+Option A: Google Colab (recommended for the hackathon demo)
   1.Open GOLDX_Integrated_Dashboard_Launcher.ipynb in Google Colab.
   2.Place goldx_integrated_app.py, goldx_application_market_data.csv, and                              goldx_application_signals.csv where the launcher expects them, or follow its upload cells.
   3.Run the notebook's dependency installation and launch cells in order.
@@ -316,7 +316,7 @@ streamlit run goldx_integrated_app.py
 C.Open the local address printed by Streamlit and choose the real-project CSV mode. If the app imports additional packages, add them to the project's requirements.txt and install those as well. The above list is a practical starting point, not a verified lockfile.
 
 
-Expected baseline checks:-
+# Expected baseline checks:-
 After loading the current project files, the dashboard should show:
 Market records:               102
 Recorded dates:                34
@@ -350,10 +350,10 @@ f.Basic Python syntax compilation of the integrated app.
 g.Manual review of the dashboard's principal pages and exported CSVs.
 
 
-# Not yet established as fully tested: comprehensive automated Streamlit interaction tests, independent recalculation of every chart in a browser session, multi-session reliability, real-time feed integration, production deployment, and end-to-end trade execution.
+Not yet established as fully tested: comprehensive automated Streamlit interaction tests, independent recalculation of every chart in a browser session, multi-session reliability, real-time feed integration, production deployment, and end-to-end trade execution.
 
 
-Limitations and responsible interpretation-----
+# Limitations and responsible interpretation-----
 
 1.Small sample: only 34 recorded trading dates; results cannot support strong generalization.
 
@@ -377,7 +377,7 @@ Disclaimer: GOLDX is an educational hackathon prototype for research and demonst
 
 
 
-Future roadmap:-----
+# Future roadmap:-----
 
 ~ Expand the dataset to at least several months of consistent historical futures records.
 ~ Add stronger contract-roll handling and explicit days-to-expiry/cost-of-carry features.
